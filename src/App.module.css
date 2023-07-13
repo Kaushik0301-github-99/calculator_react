@@ -1,0 +1,39 @@
+.mainlayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+
+  .mainpanel {
+    background-color: #4c4c4c;
+    word-wrap: break-word;
+    font-size: 40px;
+    color: white;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .horizontalpanel {
+    display: flex;
+    .zero {
+      height: 100px;
+      width: 200px;
+      background-color: #d6d6d6;
+      font-size: 20px;
+    }
+    .button {
+      height: 100px;
+      width: 100px;
+      background-color: #d6d6d6;
+      font-size: 20px;
+    }
+    .button:last-child {
+      background-color: #f79231;
+    }
+  }
+}
